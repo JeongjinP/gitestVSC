@@ -47,5 +47,15 @@ element pop(StackType * s){
 }
 
 int main(){
-    // funny joke
+    StackType * Stack;
+    Stack = (StackType *)malloc(sizeof(StackType));
+    init_Stack(Stack);
+
+    push(s, 1);
+    push(s, 2);
+
+    pop(s);
+    pop(s);
+
+    return 0;
 }
